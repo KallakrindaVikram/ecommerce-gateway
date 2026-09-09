@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-gateway-service",
+  "version": "1.2.4",
+  "description": "Payment orchestration microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.4.5",
+    "stripe": "^14.21.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
